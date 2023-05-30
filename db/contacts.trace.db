@@ -1,0 +1,9 @@
+2023-05-30 08:50:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTACTS" not found (this database is empty); SQL statement:
+SELECT 1 FROM contacts [42104-212]
+2023-05-30 08:50:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "GROUPS" not found; SQL statement:
+SELECT 1 FROM groups [42102-212]
+2023-05-30 08:50:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CONTACT_GROUP" not found; SQL statement:
+SELECT 1 FROM contact_group [42102-212]
